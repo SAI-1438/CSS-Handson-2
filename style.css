@@ -1,0 +1,112 @@
+body{
+    border:10px groove  greenyellow;
+    margin:0px;
+    background-image: url(./cool-background.png);
+    background-size:cover;
+}
+.paras{
+    margin:0px;
+    height:150px;
+    width:100%;
+}
+.para{
+    border: 5px solid red;
+    border-radius: 30px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    display:inline-block;
+    padding:20px;
+    font-size: 28px;
+    color:white;
+}
+.s1{
+    height:85px;
+    width:320px;
+    left:15px;
+    position:relative;
+    top:15px;
+}
+.s2{
+    height:15px;
+    width:420px;
+    top:-8px;
+    position:relative;
+    left:-100px;
+}
+.s3{
+    height:100px;
+    width:300px;
+    top:25px;
+    position:absolute;
+    right:20px;
+}
+.cirfor{
+    height:650px;
+    width:100%;
+}
+.one{
+    display:inline-block;
+    position:relative;
+}
+.circle{
+    height:450px;
+    width:450px;
+    background-color:aquamarine;
+    border: 5px solid grey;
+    border-radius: 50%;
+    position:relative;
+    text-align: center;
+    text-decoration: underline;
+    align-items: center;
+    line-height: 90px;
+    left:100px;
+    top: 150px;
+}
+.form{
+    height:630px;
+    width:340px;
+    background-color:white;
+    border: 5px dashed red;
+    color:hotpink;
+    text-align: center;
+    position:absolute;
+    right: 250px;
+}
+.s4{
+    height:35px;
+    width:400px;
+    text-align: center;
+    padding: 15px;
+    position:relative;
+    left:35%;
+}
+.all-cards{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    height: 650px;
+    align-content:space-evenly;
+}
+.card{
+    width:330px;
+    height: 250px;
+    background-color: aquamarine;
+    border:3px solid green;
+    border-radius: 40px;
+}
+.card6{
+    width:330px;
+    height: 280px;
+    background-color: aquamarine;
+    border:3px solid green;
+    border-radius: 40px;
+}
+h1{
+    text-align: center;
+    color:darkblue;
+}
+li{
+    text-align: center;
+    color:darkblue
+}
